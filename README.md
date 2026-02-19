@@ -150,6 +150,16 @@ In `~/Library/Application Support/GhostWatch/`. You can configure automatic clea
 **Why does it need Full Disk Access?**
 Some system databases (like the TCC privacy database) are protected by macOS. Full Disk Access lets GhostWatch read these files to detect permission changes. GhostWatch never modifies any system file.
 
+## Support
+
+If you find GhostWatch useful, you can support its development:
+
+<p align="center">
+  <a href="https://paypal.me/lefbe">
+    <img src="https://img.shields.io/badge/PayPal-Support%20this%20project-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="Support via PayPal">
+  </a>
+</p>
+
 ## License
 
 GhostWatch is **freeware**. Free to use for personal and commercial purposes.
