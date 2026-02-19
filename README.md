@@ -66,8 +66,24 @@ GhostWatch is a lightweight macOS menu bar application that continuously monitor
 ## Screenshots
 
 <p align="center">
-  <img src="assets/screenshot-menubar.png" width="300" alt="Menu bar">
-  <img src="assets/screenshot-dashboard.png" width="600" alt="Dashboard">
+  <img src="assets/screenshot-dashboard.png" width="700" alt="Dashboard"><br>
+  <em>Dashboard — event timeline with filters and severity indicators</em>
+</p>
+
+<p align="center">
+  <img src="assets/screenshot-menubar.png" width="320" alt="Menu bar">
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/screenshot-monitors.png" width="320" alt="Monitors settings">
+</p>
+<p align="center">
+  <em>Menu bar &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Monitor settings</em>
+</p>
+
+<p align="center">
+  <img src="assets/screenshot-about.png" width="320" alt="About">
+</p>
+<p align="center">
+  <em>About</em>
 </p>
 
 ## Installation

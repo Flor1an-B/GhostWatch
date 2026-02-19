@@ -73,9 +73,6 @@ GhostWatch needs specific macOS permissions to monitor your system effectively. 
 6. You should see GhostWatch appear in the list with its toggle enabled
 7. **Quit and relaunch GhostWatch** for the change to take effect
 
-<p align="center">
-  <img src="assets/fda-settings.png" width="500" alt="Full Disk Access settings">
-</p>
 
 ### Notifications (Recommended)
 
