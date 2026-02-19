@@ -220,7 +220,7 @@ The Statistics view shows:
 
 ## Monitors
 
-GhostWatch includes 15 security monitors. Each can be individually enabled or disabled in Settings.
+GhostWatch includes 16 security monitors. Each can be individually enabled or disabled in Settings.
 
 ### Core Monitors
 
@@ -242,6 +242,7 @@ GhostWatch includes 15 security monitors. Each can be individually enabled or di
 | **Configuration Profiles** | MDM and configuration profiles that can enforce system policies, install certificates, or configure VPNs. Malicious profiles can silently alter security settings. | 120 seconds |
 | **Browser Extensions** | Extensions installed in Chrome, Firefox, Edge, Brave, and Arc. Malicious extensions can read passwords, track browsing, or inject content into web pages. | 120 seconds |
 | **System Extensions** | Kernel extensions (kexts) and system extensions that operate at a deep level in macOS with broad system access. | 120 seconds |
+| **Applications** | Applications installed in `/Applications` and `~/Applications`. Detects new installs, removals, and version updates. Unexpected changes could indicate unauthorized software or the silent removal of security tools. | 120 seconds + file system events |
 
 ### Security Monitors
 

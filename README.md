@@ -12,7 +12,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/platform-macOS%2014%2B-blue" alt="macOS 14+">
   <img src="https://img.shields.io/badge/license-Freeware-green" alt="Freeware">
-  <img src="https://img.shields.io/badge/version-3.1.0-orange" alt="Version 3.1.0">
+  <img src="https://img.shields.io/badge/version-3.2.0-orange" alt="Version 3.2.0">
   <img src="https://img.shields.io/badge/languages-EN%20%7C%20FR-lightgrey" alt="English & French">
 </p>
 
@@ -26,7 +26,7 @@ GhostWatch is a lightweight macOS menu bar application that continuously monitor
 
 ## Features
 
-### 15 Security Monitors
+### 16 Security Monitors
 
 | Category | What it watches |
 |----------|----------------|
@@ -41,6 +41,7 @@ GhostWatch is a lightweight macOS menu bar application that continuously monitor
 | **Configuration Profiles** | MDM and configuration profiles |
 | **Browser Extensions** | Chrome, Firefox, Edge, Brave, Arc extensions |
 | **System Extensions** | Kernel and system extensions |
+| **Applications** | App installs, removals, and version updates |
 | **SSH Keys** | Authorized keys and key files in `~/.ssh` |
 | **User Accounts** | Local user accounts |
 | **Sharing Preferences** | Remote Login, Screen Sharing, File Sharing |
