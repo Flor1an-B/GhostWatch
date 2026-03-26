@@ -32,6 +32,20 @@ Versioning follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
   relying on a flag set once at launch. Granting or revoking notification permission in System
   Settings takes effect immediately without restarting the app.
 
+### Security
+
+- **App restart mechanism hardened:** The language-change restart no longer uses a shell command
+  (`/bin/sh -c`) with string interpolation. It now calls `/usr/bin/open` directly via the Process
+  API with array arguments, eliminating any command injection surface.
+
+- **FileWatcher symlink protection:** The file watcher now verifies that monitored paths are not
+  symbolic links before opening them. This prevents an attacker with local access from redirecting
+  monitoring to an arbitrary directory via symlink substitution.
+
+- **Database migration logging:** When the SwiftData store requires a reset after a failed
+  migration, the operation is now logged with full detail (individual file deletions and any
+  errors) instead of being silently suppressed with `try?`.
+
 ### Changed
 
 - **Removed App Sandbox:** GhostWatch is no longer sandboxed. The sandbox was incompatible with
