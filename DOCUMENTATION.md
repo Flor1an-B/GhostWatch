@@ -19,7 +19,7 @@
 
 ## Introduction
 
-GhostWatch is a macOS security monitoring application that runs silently in your menu bar. It watches 15 critical areas of your system configuration and alerts you when something changes — whether it's a new login item, a modified hosts file, a new SSH key, or a change to your firewall settings.
+GhostWatch is a macOS security monitoring application that runs silently in your menu bar. It watches 16 critical areas of your system configuration and alerts you when something changes — whether it's a new login item, a modified hosts file, a new SSH key, or a change to your firewall settings.
 
 **Why does this matter?**
 
@@ -105,6 +105,8 @@ You can verify your permissions at any time:
 4. Each permission shows a green checkmark (granted) or orange warning (not granted)
 5. Click **Open Settings** next to any missing permission to go directly to the right System Settings panel
 
+> **Tip:** The Permissions tab automatically refreshes when GhostWatch returns to the foreground. After granting a permission in System Settings, simply switch back to GhostWatch to see the updated status.
+
 ---
 
 ## Getting Started
@@ -140,7 +142,7 @@ Click the GhostWatch icon in the menu bar to see:
 
 ### Status
 
-Shows whether monitoring is active and how many monitors are running (e.g., "15 monitors active").
+Shows whether monitoring is active and how many monitors are running (e.g., "16 monitors active").
 
 ### Recent Events
 
@@ -162,10 +164,12 @@ The dashboard is the main interface for reviewing and managing security events. 
 
 ### Sidebar (Left)
 
-- **All Events** — Shows every detected change, with total count
+- **All Events** — Shows every detected change, with count for the selected time range
 - **Bookmarked** — Events you've marked for follow-up (appears only if you have bookmarks)
 - **Statistics** — Charts and analytics about your security events
 - **Categories** — Filter by monitor type (Login Items, Network, SSH Keys, etc.)
+
+> All sidebar counts update dynamically when you change the date range filter. A category is hidden from the sidebar if it has no events in the selected period.
 
 ### Filter Bar (Top)
 

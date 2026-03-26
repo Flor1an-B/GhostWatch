@@ -12,7 +12,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/platform-macOS%2014%2B-blue" alt="macOS 14+">
   <img src="https://img.shields.io/badge/license-Freeware-green" alt="Freeware">
-  <img src="https://img.shields.io/badge/version-3.2.0-orange" alt="Version 3.2.0">
+  <img src="https://img.shields.io/badge/version-3.2.1-orange" alt="Version 3.2.1">
   <img src="https://img.shields.io/badge/languages-EN%20%7C%20FR-lightgrey" alt="English & French">
 </p>
 
